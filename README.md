@@ -94,7 +94,7 @@ rotatable?: boolean = true
 ```
 
 ```javascript
-scalable?: boolean = true | object = { min?: number = 0.33, max?: number = 2 }
+scalable?: boolean = true | object = { min?: number = 0.33, max?: number = 2, scale?: number = 1 }
 ```
 
 ### Styles
@@ -130,4 +130,3 @@ $ react-native run-ios
 
 - [ ] Rotate step, ex: every 90deg
 - [ ] Guidelines and center snap
-
